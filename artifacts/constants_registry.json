@@ -1,0 +1,53 @@
+{
+  "constants": {
+    "eps_coh": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/GOLDBACH_CONJECTURE_PREPRINT.md Appendix E.6; raw=0.0, ref=1.0, formula=eps_coh_raw",
+      "source": "artifacts/constants_extracted.json#eps_coh",
+      "source_section": "paper/GOLDBACH_CONJECTURE_PREPRINT.md Appendix E.6",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 0.0
+    },
+    "kappa_compact": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/GOLDBACH_CONJECTURE_PREPRINT.md Section 5.3 / Appendix C; raw=0.8058017727639, ref=1.0, formula=1.0 / (1.0 + delta_comp_sup_raw)",
+      "source": "artifacts/constants_extracted.json#kappa_compact",
+      "source_section": "paper/GOLDBACH_CONJECTURE_PREPRINT.md Section 5.3 / Appendix C",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 0.8058017727639
+    },
+    "kappa_major_arc": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/GOLDBACH_CONJECTURE_PREPRINT.md Section 4.5 / Appendix A; raw=1.0879999999999999, ref=1.0, formula=c_major_raw * arc_density_raw - e_major_raw",
+      "source": "artifacts/constants_extracted.json#kappa_major_arc",
+      "source_section": "paper/GOLDBACH_CONJECTURE_PREPRINT.md Section 4.5 / Appendix A",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.0879999999999999
+    },
+    "prime_pair_transfer": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/GOLDBACH_CONJECTURE_PREPRINT.md Section 6.2 / Appendix E.4; raw=1.0349, ref=1.0, formula=c_pair_raw * rigidity_transfer_raw - e_pair_raw",
+      "source": "artifacts/constants_extracted.json#prime_pair_transfer",
+      "source_section": "paper/GOLDBACH_CONJECTURE_PREPRINT.md Section 6.2 / Appendix E.4",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.0349
+    },
+    "rho_rigidity": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/GOLDBACH_CONJECTURE_PREPRINT.md Section 6.1 / Appendix D; raw=1.073, ref=1.0, formula=rho_rigidity_raw",
+      "source": "artifacts/constants_extracted.json#rho_rigidity",
+      "source_section": "paper/GOLDBACH_CONJECTURE_PREPRINT.md Section 6.1 / Appendix D",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.073
+    },
+    "sigma_minor_arc": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/GOLDBACH_CONJECTURE_PREPRINT.md Section 5.2 / Appendix B; raw=1.0619999999999998, ref=1.0, formula=minor_arc_floor_raw - decomposition_loss_raw - truncation_loss_raw",
+      "source": "artifacts/constants_extracted.json#sigma_minor_arc",
+      "source_section": "paper/GOLDBACH_CONJECTURE_PREPRINT.md Section 5.2 / Appendix B",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.0619999999999998
+    }
+  },
+  "updated_at_utc": "2026-03-11T15:06:56Z"
+}

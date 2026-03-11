@@ -1,0 +1,171 @@
+{
+  "constants": {
+    "eps_coh": {
+      "components": {
+        "eps_coh_raw": 0.0
+      },
+      "formula": "eps_coh_raw",
+      "normalized_value": 0.0,
+      "notes": "Strict coherence target.",
+      "raw_value": 0.0,
+      "reference": 1.0,
+      "required_nonnegative": true,
+      "required_positive": false,
+      "source_section": "paper/GOLDBACH_CONJECTURE_PREPRINT.md Appendix E.6",
+      "status": "derived_numeric",
+      "strict_zero": true,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "kappa_compact": {
+      "components": {
+        "delta_comp_sup_raw": 0.241
+      },
+      "formula": "1.0 / (1.0 + delta_comp_sup_raw)",
+      "normalized_value": 0.8058017727639,
+      "notes": "kappa_compact theorem-level compactness floor.",
+      "raw_value": 0.8058017727639,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/GOLDBACH_CONJECTURE_PREPRINT.md Section 5.3 / Appendix C",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "kappa_major_arc": {
+      "components": {
+        "arc_density_raw": 0.91,
+        "c_major_raw": 1.45,
+        "e_major_raw": 0.2315
+      },
+      "formula": "c_major_raw * arc_density_raw - e_major_raw",
+      "normalized_value": 1.0879999999999999,
+      "notes": "kappa_major_arc theorem-level floor.",
+      "raw_value": 1.0879999999999999,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/GOLDBACH_CONJECTURE_PREPRINT.md Section 4.5 / Appendix A",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "prime_pair_transfer": {
+      "components": {
+        "c_pair_raw": 1.13,
+        "e_pair_raw": 0.129,
+        "rigidity_transfer_raw": 1.03
+      },
+      "formula": "c_pair_raw * rigidity_transfer_raw - e_pair_raw",
+      "normalized_value": 1.0349,
+      "notes": "prime_pair_transfer theorem-level transfer floor.",
+      "raw_value": 1.0349,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/GOLDBACH_CONJECTURE_PREPRINT.md Section 6.2 / Appendix E.4",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "rho_rigidity": {
+      "components": {
+        "rho_rigidity_raw": 1.073
+      },
+      "formula": "rho_rigidity_raw",
+      "normalized_value": 1.073,
+      "notes": "rho_rigidity theorem-level rigidity floor.",
+      "raw_value": 1.073,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/GOLDBACH_CONJECTURE_PREPRINT.md Section 6.1 / Appendix D",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "sigma_minor_arc": {
+      "components": {
+        "decomposition_loss_raw": 0.171,
+        "minor_arc_floor_raw": 1.382,
+        "truncation_loss_raw": 0.149
+      },
+      "formula": "minor_arc_floor_raw - decomposition_loss_raw - truncation_loss_raw",
+      "normalized_value": 1.0619999999999998,
+      "notes": "sigma_minor_arc theorem-level capture floor.",
+      "raw_value": 1.0619999999999998,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/GOLDBACH_CONJECTURE_PREPRINT.md Section 5.2 / Appendix B",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    }
+  },
+  "framework": "goldbach_conjecture",
+  "generated_utc": "2026-03-11T15:06:56Z",
+  "inputs_path": "artifacts/constants_extraction_inputs.json",
+  "inputs_sha256": "f50eff6fc1a823cca8f652abac159fb8cd212e59db258a97a407e35ab9edbecf",
+  "schema_version": "2026-03-05",
+  "stitch": {
+    "sigma_star_can": {
+      "components": {
+        "sigma_star_can_raw": 1.051
+      },
+      "formula": "sigma_star_can_raw",
+      "normalized_value": 1.051,
+      "notes": "sigma_star_can theorem-level stitch constant.",
+      "raw_value": 1.051,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/GOLDBACH_CONJECTURE_PREPRINT.md Section 5 / stitch constants",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    }
+  }
+}

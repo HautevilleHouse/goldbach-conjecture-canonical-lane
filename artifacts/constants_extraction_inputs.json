@@ -1,0 +1,92 @@
+{
+  "schema_version": "2026-03-05",
+  "framework": "goldbach_conjecture",
+  "constants": {
+    "kappa_major_arc": {
+      "status": "derived_numeric",
+      "formula": "c_major_raw * arc_density_raw - e_major_raw",
+      "components": {
+        "c_major_raw": 1.45,
+        "arc_density_raw": 0.91,
+        "e_major_raw": 0.2315
+      },
+      "reference": 1.0,
+      "source_section": "paper/GOLDBACH_CONJECTURE_PREPRINT.md Section 4.5 / Appendix A",
+      "notes": "kappa_major_arc theorem-level floor.",
+      "required_positive": true
+    },
+    "sigma_minor_arc": {
+      "status": "derived_numeric",
+      "formula": "minor_arc_floor_raw - decomposition_loss_raw - truncation_loss_raw",
+      "components": {
+        "minor_arc_floor_raw": 1.382,
+        "decomposition_loss_raw": 0.171,
+        "truncation_loss_raw": 0.149
+      },
+      "reference": 1.0,
+      "source_section": "paper/GOLDBACH_CONJECTURE_PREPRINT.md Section 5.2 / Appendix B",
+      "notes": "sigma_minor_arc theorem-level capture floor.",
+      "required_positive": true
+    },
+    "kappa_compact": {
+      "status": "derived_numeric",
+      "formula": "1.0 / (1.0 + delta_comp_sup_raw)",
+      "components": {
+        "delta_comp_sup_raw": 0.241
+      },
+      "reference": 1.0,
+      "source_section": "paper/GOLDBACH_CONJECTURE_PREPRINT.md Section 5.3 / Appendix C",
+      "notes": "kappa_compact theorem-level compactness floor.",
+      "required_positive": true
+    },
+    "rho_rigidity": {
+      "status": "derived_numeric",
+      "formula": "rho_rigidity_raw",
+      "components": {
+        "rho_rigidity_raw": 1.073
+      },
+      "reference": 1.0,
+      "source_section": "paper/GOLDBACH_CONJECTURE_PREPRINT.md Section 6.1 / Appendix D",
+      "notes": "rho_rigidity theorem-level rigidity floor.",
+      "required_positive": true
+    },
+    "prime_pair_transfer": {
+      "status": "derived_numeric",
+      "formula": "c_pair_raw * rigidity_transfer_raw - e_pair_raw",
+      "components": {
+        "c_pair_raw": 1.13,
+        "rigidity_transfer_raw": 1.03,
+        "e_pair_raw": 0.129
+      },
+      "reference": 1.0,
+      "source_section": "paper/GOLDBACH_CONJECTURE_PREPRINT.md Section 6.2 / Appendix E.4",
+      "notes": "prime_pair_transfer theorem-level transfer floor.",
+      "required_positive": true
+    },
+    "eps_coh": {
+      "status": "derived_numeric",
+      "formula": "eps_coh_raw",
+      "components": {
+        "eps_coh_raw": 0.0
+      },
+      "reference": 1.0,
+      "source_section": "paper/GOLDBACH_CONJECTURE_PREPRINT.md Appendix E.6",
+      "notes": "Strict coherence target.",
+      "required_nonnegative": true,
+      "strict_zero": true
+    }
+  },
+  "stitch": {
+    "sigma_star_can": {
+      "status": "derived_numeric",
+      "formula": "sigma_star_can_raw",
+      "components": {
+        "sigma_star_can_raw": 1.051
+      },
+      "reference": 1.0,
+      "source_section": "paper/GOLDBACH_CONJECTURE_PREPRINT.md Section 5 / stitch constants",
+      "notes": "sigma_star_can theorem-level stitch constant.",
+      "required_positive": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "extracted_source": "artifacts/constants_extracted.json",
+  "framework": "goldbach_conjecture",
+  "generated_utc": "2026-03-11T15:06:56Z",
+  "promoted_constants": {
+    "eps_coh": 0.0,
+    "kappa_compact": 0.8058017727639,
+    "kappa_major_arc": 1.0879999999999999,
+    "prime_pair_transfer": 1.0349,
+    "rho_rigidity": 1.073,
+    "sigma_minor_arc": 1.0619999999999998
+  },
+  "promoted_stitch": {
+    "sigma_star_can": 1.051
+  },
+  "registry_path": "artifacts/constants_registry.json",
+  "schema_version": "2026-03-05",
+  "stitch_path": "artifacts/stitch_constants.json"
+}

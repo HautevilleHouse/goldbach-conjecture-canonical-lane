@@ -1,0 +1,24 @@
+
+  title: "The Goldbach Conjecture via Major-Arc Persistence"
+  message: "If you use this workspace, cite the manuscript and theorem notes."
+  type: software
+  authors:
+    - name: "HautevilleHouse"
+  date-released: 2026-03-11
+  repository-code: "https://github.com/HautevilleHouse/goldbach-conjecture-canonical-lane"
+  url: "https://github.com/HautevilleHouse/goldbach-conjecture-canonical-lane"
+  license: None
+  keywords:
+    - additive-number-theory
+- circle-method
+- goldbach-conjecture
+- mathematical-proof
+- prime-sums
+- reproducibility
+- number-theory
+  preferred-citation:
+    type: article
+    title: "The Goldbach Conjecture via Major-Arc Persistence"
+    authors:
+      - name: "HautevilleHouse"
+    date: 2026-03-11
